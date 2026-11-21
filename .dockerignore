@@ -1,0 +1,6 @@
+@'
+target/
+.git/
+.idea/
+*.iml
+'@ | Set-Content -Path .dockerignore -Encoding ascii
